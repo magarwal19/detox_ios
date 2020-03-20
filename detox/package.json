@@ -8,7 +8,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "test:e2e": "detox test --cleanup",
+    "test:e2e": "detox test --record-logs all --take-screenshots all --cleanup",
     "test:e2e:build": "detox build"
   },
   "dependencies": {
